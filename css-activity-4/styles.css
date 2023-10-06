@@ -1,0 +1,20 @@
+.one {
+	border: solid blue 4px;
+	padding: 32px;
+	background-color: lightpink;
+	margin: 12px;
+}
+
+.two {
+	border: solid purple 4px;
+	background-color: lightblue;
+}
+
+.three {
+	border: solid brown 4px;
+	background-color: #FFD580;
+	padding: 32px;
+	width: 200px;
+	margin-top: 48px;
+	margin-left: 410px;
+}
