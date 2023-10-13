@@ -1,0 +1,36 @@
+a {
+	color: darkpurple;
+}
+
+li {
+	color: darkteal;
+}
+
+h1 {
+	color: coral;
+}
+
+h2 {
+	color: teal;
+}
+
+.paragraph {
+	color: dimgrey;
+}
+
+div {
+	background-color:cornsilk;
+}
+
+img {
+	padding-left: 200px;
+}
+
+.list {
+	background-image: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg);
+	opacity: 0.8;
+}
+
+img {
+  opacity: 0.75;
+}
