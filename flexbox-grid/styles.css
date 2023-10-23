@@ -1,0 +1,87 @@
+.flex-container {
+	border: red 3px solid;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	flex: 6;
+}
+
+.row {
+	display:flex;
+	flex-direction: row;
+	border: solid 3px;
+	justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+	height: 200px;
+	width: 200px;
+	background-color: lightblue;
+	border: green 3px solid;
+	margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#whole_thing {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border:red 3px solid;
+	height: 100vh;
+}
+#footer {
+	background-color: purple;
+	width: auto;
+	height: 40px;
+	border: solid 3px purple;	
+	display: flex;
+	flex-direction: row;
+}
+
+.larger {
+	background-color: blue;
+	margin: 10px;
+	flex: 2;
+}
+
+.smaller {
+	background-color: orange;
+	margin: 10px;
+	flex: 1;
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+}
+
+#information {
+	display: flex;
+	flex-direction: column;
+	flex: 4;
+	border: 3px solid blue;
+}
+
+#select {
+
+	flex: 3;
+	border: 3px solid red;
+	margin: 5px;
+}
+
+#name {
+	
+	flex: 2;
+	border: 3px solid yellow;
+	margin: 5px;
+}
+
+#thirdthing {
+
+	flex: 2;
+	border: 3px solid green;
+	margin: 5px;
+}
