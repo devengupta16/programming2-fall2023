@@ -1,15 +1,14 @@
 .flex-container {
-	border: red 3px solid;
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: column;
 	flex: 6;
+	background-color: #D9E7D9;
 }
 
 .row {
 	display:flex;
 	flex-direction: row;
-	border: solid 3px;
 	justify-content: space-evenly;
 }
 
@@ -17,8 +16,6 @@
     display: flex;
 	height: 200px;
 	width: 200px;
-	background-color: lightblue;
-	border: green 3px solid;
 	margin: 10px;
     flex-direction: column;
     justify-content: center;
@@ -29,26 +26,26 @@
 	display:flex;
 	flex-direction: column;
 	justify-content: space-between;
-	border:red 3px solid;
 	height: 100vh;
 }
 #footer {
-	background-color: purple;
+	background-color: #E8E6E6;
 	width: auto;
 	height: 40px;
-	border: solid 3px purple;	
 	display: flex;
 	flex-direction: row;
 }
 
 .larger {
-	background-color: blue;
+	background-color: #E7D9D9;
 	margin: 10px;
 	flex: 2;
+	display: flex;
+	align-items: center;
 }
 
 .smaller {
-	background-color: orange;
+	background-color: #E7D9D9;
 	margin: 10px;
 	flex: 1;
 }
@@ -62,26 +59,57 @@
 	display: flex;
 	flex-direction: column;
 	flex: 4;
-	border: 3px solid blue;
+	border: 3px inset; black;
 }
 
 #select {
-
+	display:flex;
+	justify-content: center;
 	flex: 3;
-	border: 3px solid red;
 	margin: 5px;
 }
 
 #name {
-	
+	display:flex;
 	flex: 2;
-	border: 3px solid yellow;
 	margin: 5px;
+	justify-content: center;
 }
 
 #thirdthing {
-
+	display: flex;
 	flex: 2;
-	border: 3px solid green;
 	margin: 5px;
+	background-color: #E4DDDD;
+}
+
+img {
+	border: inset 3px #D9E7D9;
+	height:160px;
+}
+
+p {
+	font-size: 20px;
+	margin: 10px;
+}
+
+#mainimage {
+	border: white;
+	height: 400px;
+
+}
+
+#mainname {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#maininfo {
+	font-size: 18px;
+	text-align: center;
+}
+
+#footername {
+	font-size: 15px;
+	margin-top 5px
 }
