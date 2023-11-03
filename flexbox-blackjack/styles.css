@@ -1,0 +1,97 @@
+div {
+	border: 2px green solid;
+}
+
+#header {
+	height: 100px;
+	width:auto;
+}
+
+#game {
+	height: 625px;
+	width:auto;
+	background-image: url("https://media.istockphoto.com/id/1218354234/vector/poker-table-background-in-green-color.jpg?s=612x612&w=0&k=20&c=h5ub96YRuOOMbLeBMPgQ4tnvgg7HFrJDo96jXQBoVtQ=");
+}
+
+#everything {
+	display:flex;
+	flex-direction: column;
+}
+
+#game {
+	display:flex;
+	flex-direction: column;
+}
+
+#row1, #row2, #row3, #row4, #row5 {
+	display:flex;
+	flex-direction: row;
+	height: 200px;
+}
+
+#options {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: blue solid 2px;
+
+}
+
+#hit, #stand, #reset {
+	height: 50px;
+	width: 100px;
+	background-color: blue;
+}
+
+#playercard1, #playercard2, #dealercard1, #dealercard2 {
+	height: 150px;
+	width: 100px;
+	margin: 25px;
+	background-color: red;
+	border-radius: 10px;
+}
+
+#row5 {
+	justify-content: center;
+}
+
+#row4, #row1 {
+	height:50px;
+}
+
+#row3 {
+	justify-content: flex-end;
+	height: 100px;
+}
+
+#row2 {
+	justify-content: center;
+}
+
+#player, #dealer, #score {
+	width: 200px;
+	background-color: ;
+}
+
+#row1 {
+	justify-content: space-between;
+}
+
+p {
+	text-align:center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#messages {
+	width:200px;
+
+}
+
+button {
+	background-color: blue;
+	height:50px;
+	width: 100px;
+	font-size: 20px;
+}
