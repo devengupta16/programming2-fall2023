@@ -7,6 +7,7 @@ div {
 	width:auto;
 	text-align: center;
 
+
 }
 
 #game {
@@ -47,10 +48,10 @@ div {
 #hit, #stand, #reset {
 	height: 50px;
 	width: 100px;
-	background-color: blue;
+	background-color: #CF605C;
 }
 
-#playercard1, #playercard2, #dealercard1, #dealercard2 {
+#playercard1, #playercard2, #dealercard1, #dealercard2, #playercard3, #playercard4, #dealercard3, #dealercard4{
 	height: 150px;
 	width: 100px;
 	margin: 25px;
@@ -68,6 +69,7 @@ div {
 	display:flex;
 	flex: 4;
 	justify-content: center;
+	border: 0px;
 }
 
 #fiveright {
@@ -75,6 +77,7 @@ div {
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
+
 }
 
 #row4, #row1 {
@@ -99,11 +102,13 @@ div {
 
 
 
-p {
+p, #messages, #dealerscore, #playerscore {
 	text-align:center;
 	font-size: 30px;
 	font-weight: bold;
 	margin-top: 5px;
+	color: white;
+	
 }
 
 #messages {
@@ -115,11 +120,12 @@ p {
 }
 
 button {
-	background-color: blue;
+	background-color: #CF605C;
 	height:50px;
 	width: 100px;
 	font-size: 20px;
 }
+
 
 
 
