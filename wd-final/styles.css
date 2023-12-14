@@ -1,0 +1,45 @@
+body {
+	background-color: #44433C;
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+	color: #D2CFC3;
+}
+
+
+
+#buttons {
+	display: flex;
+	justify-content: space-around;
+	background-color: #CEBB77;
+	height: 60px;
+}
+
+button {
+	background-color: #726C55;
+	margin: 8px;
+	width: 100px;
+	height: 42px;
+}
+
+#trailer_summary {
+	display:flex;
+}
+
+#trailer {
+	flex: 6;
+	height: 200px;
+	background-color: #9C987F;
+	margin: 20px;
+	padding: 5px;
+}
+
+#summary {
+	flex: 4;
+	height: 200px;
+	background-color: #9C987F;
+	margin: 20px;
+	padding: 5px;
+}
