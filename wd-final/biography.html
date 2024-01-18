@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>How To Lobster Biography</title>
+    <title>Mean Girls Biography</title>
 </head>
 <body>
-    <h1 id = "header">Biography</h1>
+	<header>
+    	<h1 id = "header">Biography</h1>
+    </header>
     <div id = "buttons">
-    <a href="index.html"><button>Home Page</button></a>
-    <a href = "cast.html"><button>Cast List</button>
-    </div></a>
+    	<a href="index.html"><button>Home Page</button></a>
+    	<a href = "cast.html"><button>Cast List</button></a>
+    </div>
+    <main>
+    	<img src = "https://peninsulaplayers.com/wp-content/uploads/2022/01/Cassie-Slatter.jpg" id ="imagebio">
+        <section id="biography">
+            <h2>BIOGRAPHY</h2>
+            <p>Cassie Slater is an award-winning actor and singer. After receiving her BFA from The Theatre School at DePaul University, she began her career in Chicago where she was a recipient of a Joseph Jefferson Award (Merrily We Roll Along). Regionally she has worked with Chicago Shakespeare Theater, Timeline Theater Company, Barrington Stage Company, The Marriott Theatre and Peninsula Players Theatre among many others. She has worked extensively in the development of new musicals (BMI and William Finn’s Musical Theatre Lab at Barrington Stage Company) and originated the roles of Lauren and Judy in BSC's See Rock City and Other Destinations (again at NAMT). She has been a featured vocalist at Birdland, Joe's Pub, Merkin Concert Hall, Lincoln Center, Don't Tell Mama and Ars Nova. In 2009, she won the New York Music Theater Festival's Next Broadway Sensation Competition, which led to her solo show Chimera at Joe's Pub.
+            </p>
+        </section>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+	<footer>
+		<h2>Contact Us</h2>
+        <div class="footer-container">
+            <form id="contact-form" action="your-server-side-script" method="post"></form>
+                
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <button onclick="alerts()">Submit</button>
+        </div>
+    </footer>
+</html>

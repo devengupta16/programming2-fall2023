@@ -4,11 +4,221 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>How To Lobster Cast</title>
+    <title>Mean Girls Cast</title>
 </head>
 <body>
-    <h1 id = "header">Meet The Cast!</h1>
+    <header>
+        <h1 id = "header">Meet The Cast!</h1>
+    </header>
     <div id = "buttons">
-    <a href="index.html"><button>Home Page</button></a>
-    <a href = "biography.html"><button>Director Biography</button>
-    </div></a>
+        <a href="index.html"><button>Home Page</button></a>
+        <a href = "biography.html"><button>Director Biography</button></a>
+    </div>
+    <div id =wholequiz>
+    <div id = "quiz">
+        <h1> Here's a Quiz For You To See Which MEAN GIRLS Character You Are! </h1>
+    
+    <select id="month">
+        <option value="">What's Your Birth Month?</option>
+        <option value="JAN">JANUARY</option>
+        <option value="FEB">FEBRUARY</option>
+        <option value="MAR">MARCH</option>
+        <option value="APR">APRIL</option>
+        <option value="MAY">MAY</option>
+        <option value="JUN">JUNE</option>
+        <option value="JUL">JULY</option>
+        <option value="AUG">AUGUST</option>
+        <option value="SEP">SEPTEMBER</option>
+        <option value="OCT">OCTOBER</option>
+        <option value="NOV">NOVEMBER</option>
+        <option value="DEC">DECEMBER</option>
+    </select>
+    <select id="grade">
+        <option value="">What Grade Are You In?</option>
+        <option value="9th">9th</option>
+        <option value="10th">10th</option>
+        <option value="11th">11th</option>
+        <option value="12th">12th</option>
+        <option value="Not">Not in High School</option>
+    </select>
+    <select id="subject">
+        <option value="">Select your favorite school subject</option>
+        <option value="Math">Math</option>
+        <option value="English">English</option>
+        <option value="CP">Computer Programming</option>
+        <option value="other">Other</option>
+    </select>
+    <button onclick="do_it()">Submit</button>       
+    </div>
+    <div id = "quizanswer">
+        <div id = "quizname"></div>
+        <img id="characterImage" src=" " style="display:none;">
+    <script type="text/javascript" src="script.js"></script>
+    </div>
+    </div>
+    <main>
+    <div class="barrier"></div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Cassie Slater - Director</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user7479713_5558183_478.JPG?resize=2000,2000" class = "cast" id="slater">
+        </section>
+        <section class="castperson">
+            <h2>Music Director - Christian Jackson</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user7849696_5927649_378.JPG?resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Choreographer - Florence Walker-Harris</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_5494214_904.jpg?resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Asst Choreographer - Wren Dudney</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_5258357_641.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Asst Director - Pau Maset</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4633816_303.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast" id="pau">
+        </section>
+        </div>
+    <div class="barrier"></div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Graysen Pendry - Cady Heron</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577654_405.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Sejal Ahuja - Regina George</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_5258297_852.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Amy O'Brien - Gretchen Weiners</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577604_981.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Naomi Geller - Karen Smith</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577279_473.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Gabby Druger - Janis Sarkisian</h2>
+           <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577206_458.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Sam Goldblatt - Damian Hubbard</h2>
+           <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577291_28.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Ellis Brown - Aaron Samuels</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577102_407.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Uma Morris - Ms. Norbury</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577579_702.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast" id="uma">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Nina Ariav - Mrs. George</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4661584_373.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast" id="nina">
+        </section>
+        <section class="castperson">
+            <h2>Logan Florsheim - Principal Duvall, Glenn Coco</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577241_541.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast" id="logan">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Evan O'Connor - Kevin G</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577608_653.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast" id="evan">
+        </section>
+        <section class="castperson">
+            <h2 class = "castname">Alayna Mack - Mrs. Heron, Taylor Wedell</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577510_856.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2 class = "castname">Alisha Mukherjee - Rachel Hamilton, Martina J</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_6466819_621.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Aragon Goldman - Ensemble</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577292_613.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Ashley Webster - Mrs. Buck</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577890_949.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Christina Loesch - Sophie K, Grace A</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577494_440.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Emma Webster - Ensemble</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577891_621.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Naomi Chouki - Marymount 1, Ensemble</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_6466212_203.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Naomi Pendo - Mathletes Moderator, Teary Girl</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577652_844.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Eva Brody - Caitlyn Caussin, Sonja Acquino</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577097_236.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Owen Zeller - Mr. Heron, Jason W, Shane O, Coach Carr</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577924_60.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast" id="owen">
+        </section>
+        <section class="castperson">
+            <h2>Sisi Nikitas - French Teacher, Martin</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577599_708.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        </div>
+        <div class="castrow">
+        <section class="castperson">
+            <h2>Sophia Saracino - Lizzie Therman, Tyler K</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_4577749_939.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast">
+        </section>
+        <section class="castperson">
+            <h2>Thalia Gordon - Dawn Schweitzer, Marymount Captain</h2>
+            <img src = "https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1048/user/large_user_6467640_806.jpg?crop=0,0,100%,80%&resize=2000,2000" class = "cast" id="thalia">
+        </section>
+        </div>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+    <footer>
+        <h2>Contact Us</h2>
+        <div class="footer-container">
+            <form id="contact-form" action="your-server-side-script" method="post"></form>
+                
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <button onclick="alerts()">Submit</button>
+        </div>
+    </footer>
+</html>

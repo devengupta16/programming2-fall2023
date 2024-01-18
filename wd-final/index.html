@@ -4,19 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>How To Lobster</title>
+    <title>Mean Girls</title>
 </head>
 <body>
-    <h1 id = "header">How To Lobster</h1>
-    <div id = "buttons">
-    <a href="biography.html"><button>Director Biography</button></a>
-    <a href = "cast.html"><button>Cast List</button></a>
+    <header>
+        <h1 id="header">Mean Girls is Coming To Parker!</h1>
+    </header>
+    <div id="buttons">
+        <a href="biography.html"><button>Director Biography</button></a>
+        <a href="cast.html"><button>Cast List</button></a>
     </div>
-    <div id = "trailer_summary">
-    <div id = "trailer"><p>this is a trailer</p>
-    </div>
-    <div id = "summary"><p>this is a summary</p>
-    </div>
-    </div>
+    <main>
+        <div id = "trailerdate">
+        <section id="trailer">
+                <iframe src="https://www.youtube.com/embed/uGmgEoOF7Gs?si=Y__Jdp-GQ4-61Cpv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>TRAILER</h2>
+        </section>
+        <section id ="date">
+            <h1 id ="dates">Dates:</h1>
+            <h2>MARCH 13</h2>
+            <h2>MARCH 14</h2>
+            <h2>MARCH 15</h2>
+            <h2>MARCH 16</h2>
+        </section>
+        </div>
+        <section id="summary">
+            <h2>SUMMARY</h2>
+            <p>How fetch! After years in the making, Mean Girls: The Musical hits the stage with the favorite characters from the movie, powerful music, and timely pop culture and news references. Janis Sarkisian and Damian Hubbard welcome the audience to their “Cautionary Tale”: Cady Heron is the new girl at North Shore High School in Chicago, desperate to fit in and find friends. Janis and Damian befriend the new girl, and when The Plastics set their sights on Cady, Janis convinces naive Cady to be their “friend” in order to bring down Queen Bee Regina George’s reign. Along the way, Cady loses herself, her friends, and her crush, all for the chance to be popular and loved. When dethroned Regina gets revenge by releasing the Burn Book, Cady is brought down and must mend her broken relationships with Janis, Aaron, and even Regina. With dynamic songs for young performers, Mean Girls is an anthem to friendship, loyalty, girl power, and being true to yourself.</p>
+        </section>
+        <section><h2 id="photosandvideos">More Photos and Videos will be available soon.</h2></section>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
 </body>
+    <footer>
+        <h2>CONTACT US</h2>
+        <div class="footer-container">
+            <form id="contact-form" action="your-server-side-script" method="post"></form>
+                
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <button onclick="alerts()">Submit</button>
+        </div>
+    </footer>   
 </html>
+
+
